@@ -4,7 +4,8 @@
   "description": "An app to learn testing",
   "main": "index.js",
   "scripts": {
-    "test": "mocha && zuul --local 1991 -- test.js"
+    "test": "mocha && zuul --local 1991 -- test.js",
+    "ci" : "mocha && zuul -- test.js"
   },
   "author": "rajayogan",
   "license": "MIT",
