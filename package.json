@@ -1,0 +1,16 @@
+{
+  "name": "learningtesting",
+  "version": "1.0.0",
+  "description": "An app to learn testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && zuul --local 1991 -- test.js"
+  },
+  "author": "rajayogan",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "zuul": "^3.10.1"
+  }
+}
